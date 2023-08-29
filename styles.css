@@ -1,6 +1,29 @@
 @font-face {
   font-family: 'Futura Md BT';
-  src: local('fonts/futura medium bt.ttf');
+  src: url('fonts/futura medium bt.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura Md BT';
+  src: url('fonts/Futura Medium Italic font.ttf');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Futura Md BT';
+  src: url('fonts/Futura Heavy Italic font.ttf');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Futura Md BT';
+  src: url('fonts/Futura Heavy font.ttf');
+  font-weight: bold;
+  font-style: normal;
 }
 
 body {
@@ -80,6 +103,15 @@ body {
   margin-bottom: 50px;
   animation: fade-in-left 4s ease forwards, do-nothing 2s linear;
 }
+
+@media (max-width: 1458px) {
+  .container {
+    width: 729px; /* Adjust the width as needed */
+    flex: none; /* Prevent flex behavior */
+  }
+}
+
+
 
 .header {
   flex: 0 0 100%;
