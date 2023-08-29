@@ -104,10 +104,17 @@ body {
   animation: fade-in-left 4s ease forwards, do-nothing 2s linear;
 }
 
+.text2 {
+  right: -5%;
+}
+
 @media (max-width: 1458px) {
   .container {
     width: 729px; /* Adjust the width as needed */
     flex: none; /* Prevent flex behavior */
+  }
+  .text2 {
+    right: 0;
   }
 }
 
