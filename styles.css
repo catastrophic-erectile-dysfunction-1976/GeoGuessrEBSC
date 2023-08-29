@@ -136,6 +136,10 @@ body {
   color : rgb(249, 230, 61);
 }
 
+.quote {
+  font-style: italic;
+}
+
 .static {
 	font-family : Futura Md BT;
 	font-size : 20px;
