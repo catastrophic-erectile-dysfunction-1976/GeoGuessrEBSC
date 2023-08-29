@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Futura Md BT';
+  src: url('fonts/Futura medium bt.ttf');
+}
+
 body {
   margin: 0;
   padding: 0;
